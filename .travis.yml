@@ -12,6 +12,8 @@ branches:
 -travis login --github-token $REPO_TOKEN # token即是上面复制的那个token串
 -travis whoami # 提示用户信息
 
+
+
 ## 缓存，可以节省集成的时间，这里我用了yarn，如果不用可以删除
 #cache:
 #  apt: true
