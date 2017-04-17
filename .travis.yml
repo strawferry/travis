@@ -9,7 +9,7 @@ branches:
 
 -apt-get install ruby # gem命令需要安装ruby
 -gem install travis
--travis login --github-token '501bfa06d180c0e671ae468a6f06c911c864237d' # token即是上面复制的那个token串
+-travis login --github-token $REPO_TOKEN # token即是上面复制的那个token串
 -travis whoami # 提示用户信息
 
 ## 缓存，可以节省集成的时间，这里我用了yarn，如果不用可以删除
